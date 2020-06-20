@@ -1,0 +1,94 @@
+<!Doctype HTMl>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="CSS/index.css">
+	<link rel="stylesheet" href="CSS/contact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+</head>
+<title>
+		Dining table
+</title>
+	
+<body>
+	<div class="Main_Container">
+		<!--Header Nav Section-->
+		<section>
+			<div class="Header_Container">
+				
+				<div id="Company_logo">
+					<h1>DINING TABLE</h1>
+				</div>
+				<div id="Humberger_Icon">
+					<div id="line1"></div>
+					<div id="line2"></div>
+					<div id="line3"></div>
+				</div>
+				<nav id="nav-ul">
+					
+				<div>
+					<ul>
+						<li><a href="index.html">Home</li></a>
+						<li><a href="Booking.html">Order</li></a>
+						<li><a href="Contact.html">Contact</li></a>
+					</ul>
+				</div>
+				</nav>
+			</div>
+		</section>
+		
+		
+		
+		<section>
+		<!-- Contact US Page Container -->
+			<div id="Contact_Container">
+				<div id="Contact_Card">
+					<img src="Gallery/Videos/contact_avatar.png" alt="Contact_Image"></img>
+					<h1 id="name">Abdur Rahim</h1>
+					<h4>Email: abdurrahim4u@gmail.com</h4>
+					<h4>Github: Rehan66481103</h4>
+					<h4>Facebook: Abdur Rahim Rehan</h4>
+					<h4>Linked In: Abdur Rahim</h4>
+					<!-- End of contact person card -->	
+				</div>
+			
+			<!-- Google Map -->
+			<div id="MapContainer">
+				<div id="Map">
+					
+				</div>	
+			</div>
+			
+				<script>
+					// Initialize and add the map
+					function initMap() {
+						// The location of My location
+						var mylocation = {lat: 25.244075, lng: 51.463541};
+						// The map, centered at My location
+						var map = new google.maps.Map(
+						document.getElementById('Map'), {zoom:10, center: mylocation});
+						// The marker, positioned at My location
+						var marker = new google.maps.Marker({position: mylocation, map: map});
+					}
+					</script>
+					<!--Load the API from the specified URL
+					* The async attribute allows the browser to render the page while the API loads
+					* The key parameter will contain your own API key (which is not needed for this tutorial)
+					* The callback parameter executes the initMap() function-->
+					<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgqG3mpeyNrCXvA8ArTZGh6MiGC0YtD4Q&callback=initMap">
+					</script>
+			</div>
+		</section>
+	</div>
+	
+	<footer>
+		<div class="Footer_Note">
+			<h2>This website is developed in HTML5, CSS3, JS, Jquery and Some Coffee.</h2>
+		</div>
+	</footer>
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="JS/humbergermenu.js"></script>
+</body>

@@ -1,0 +1,1737 @@
+
+/* Main container */
+#Main_Container_Menu{
+	background-image: url('..//Gallery/Heading_Fonts/chalk_board.jpg');
+	width: 100%;
+	background-repeat: round;
+}
+
+/* contains all menu */
+#Menu_Container{
+	position: relative;
+	width: 90%;
+	height: 100%;
+	margin-Left: 20px;
+	margin-bottom: 50px;
+	
+}
+
+/* contains only heading of the menu Special Offers */
+.Menu_Heading{
+	padding-top: 65px;
+	margin-left: 25%;
+	width: 50%;
+	height: 20%;
+}
+.order_now{
+	width: 100%;
+	height: 50%;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+}
+
+.order_now img{
+	width: 200px;
+}
+.now{
+	height: 52px;
+}
+
+.special_offer{
+	width: 100%;
+	height: 50%;
+	padding: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+.special_offer img{
+	width: 200px;
+}
+/* End of the special offer headings */
+
+/* Special Offer 1st product */
+#Special_offer_1{
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	height: 450px;
+	left: 20px;
+	border: 2px solid rgb(255, 255, 255);
+	margin-left: 20px;
+	font-family: 'AR BLANCA';
+	margin-top: 10px;
+}
+
+#Special_offer_1 h1{
+	padding: 10px 0px 0px 25px;
+	
+}
+
+#White{
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	font-family: 'AR BLANCA';
+}
+#Red{
+	color: rgb(245, 0, 0);
+	display: inline-block;
+	padding-left: 10px;
+	font-family: 'AR BLANCA';
+}
+#Special_offer_1 h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	padding: 10px;
+	text-align: justify;
+	height: 120px;
+	
+}
+
+#Special_offer_1 ul{
+	padding : 10px;
+	
+}
+
+#Special_offer_1 li{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Tahoma';
+	font-weight: normal;
+}
+
+#Choices {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+#Extras {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+
+#Special_offer_1_img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+	margin: 20px;
+	overflow: hidden;
+	left: 47%;
+	top: 200px;
+	
+}
+#Special_offer_1_img img{
+	width: 100%;
+	height: 100%;
+}
+
+#circle-1{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	left: 70%;
+	top: 290px;
+}
+#circle-1 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+/* End of Special Offer first product */
+
+
+/* End of Special Offer Second product */
+#Special_offer_2{
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 25%;
+	height: 450px;
+	left: 20px;
+	border: 2px solid rgb(255, 255, 255);
+	margin-left: 20px;
+	font-family: 'AR BLANCA';
+	margin-top: 10px;
+}
+#Special_offer_2 h1{
+	padding: 10px 0px 0px 25px;
+}
+#White{
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	
+}
+#Red{
+	color: rgb(245, 0, 0);
+	display: inline-block;
+	padding-left: 10px;
+	font-family: 'AR BLANCA';
+}
+#Special_offer_2 h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	padding: 10px;
+	text-align: justify;
+	height: 120px;
+}
+
+#Special_offer_2 ul{
+	padding : 10px;
+	
+}
+
+#Special_offer_2 li{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Tahoma';
+	font-weight: normal;
+}
+
+#Choices {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+#Extras {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+
+#Special_offer_2_img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+	margin: 20px;
+	overflow: hidden;
+	left: 47%;
+	top: 200px;
+	
+}
+#Special_offer_2_img img{
+	width: 100%;
+	height: 100%;
+}
+
+#circle-2{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	left: 70%;
+	top: 290px;
+}
+#circle-2 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+/* End of Special Offer Second product */
+
+
+
+
+/* Start Special Offer Third product */
+#Special_offer_3{
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 25%;
+	height: 450px;
+	left: 20px;
+	border: 2px solid rgb(255, 255, 255);
+	margin-left: 20px;
+	font-family: 'AR BLANCA';
+	margin-top: 10px;
+}
+#Special_offer_3 h1{
+	padding: 10px 0px 0px 25px;
+}
+#White{
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	
+}
+#Red{
+	color: rgb(245, 0, 0);
+	display: inline-block;
+	padding-left: 10px;
+	font-family: 'AR BLANCA';
+}
+#Special_offer_3 h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	padding: 10px;
+	text-align: justify;
+	height: 120px;
+}
+
+#Special_offer_3 ul{
+	padding : 10px;
+	
+}
+
+#Special_offer_3 li{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Tahoma';
+	font-weight: normal;
+}
+
+#Choices {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+#Extras {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+
+#Special_offer_3_img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+	margin: 20px;
+	overflow: hidden;
+	left: 47%;
+	top: 200px;
+	
+}
+#Special_offer_3_img img{
+	width: 100%;
+	height: 100%;
+}
+
+#circle-3{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	left: 70%;
+	top: 290px;
+}
+#circle-3 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+/* End of Special Offer Third product */
+
+
+/* Start of Special Offer forth product */
+#Special_offer_4{
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 25%;
+	height: 450px;
+	left: 20px;
+	border: 2px solid rgb(255, 255, 255);
+	margin-left: 20px;
+	font-family: 'AR BLANCA';
+	margin-top: 10px;
+}
+#Special_offer_4 h1{
+	padding: 10px 0px 0px 25px;
+}
+#White{
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	
+}
+#Red{
+	color: rgb(245, 0, 0);
+	display: inline-block;
+	padding-left: 10px;
+	font-family: 'AR BLANCA';
+}
+#Special_offer_4 h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	padding: 10px;
+	text-align: justify;
+	height: 120px;
+}
+
+#Special_offer_4 ul{
+	padding : 10px;
+	
+}
+
+#Special_offer_4 li{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Tahoma';
+	font-weight: normal;
+}
+
+#Choices {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+#Extras {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+
+#Special_offer_4_img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+	margin: 20px;
+	overflow: hidden;
+	left: 47%;
+	top: 200px;
+	
+}
+#Special_offer_4_img img{
+	width: 100%;
+	height: 100%;
+}
+
+#circle-4{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	left: 70%;
+	top: 290px;
+}
+#circle-4 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+/* End of Special Offer Forth product */
+
+
+
+/* Start of Special Offer forth product */
+#Special_offer_5{
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 25%;
+	height: 450px;
+	left: 20px;
+	border: 2px solid rgb(255, 255, 255);
+	margin-left: 20px;
+	font-family: 'AR BLANCA';
+	margin-top: 10px;
+}
+#Special_offer_5 h1{
+	padding: 10px 0px 0px 25px;
+}
+#White{
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	
+}
+#Red{
+	color: rgb(245, 0, 0);
+	display: inline-block;
+	padding-left: 10px;
+	font-family: 'AR BLANCA';
+}
+#Special_offer_5 h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	padding: 10px;
+	text-align: justify;
+	height: 120px;
+}
+
+#Special_offer_5 ul{
+	padding : 10px;
+	
+}
+
+#Special_offer_5 li{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Tahoma';
+	font-weight: normal;
+}
+
+#Choices {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+#Extras {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+
+#Special_offer_5_img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+	margin: 20px;
+	overflow: hidden;
+	left: 47%;
+	top: 200px;
+	
+}
+#Special_offer_5_img img{
+	width: 100%;
+	height: 100%;
+}
+
+#circle-5{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	left: 70%;
+	top: 290px;
+}
+#circle-5 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+/* End of Special Offer Fifth product */
+
+
+
+/* Start of Special Offer forth product */
+#Special_offer_6{
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 25%;
+	height: 450px;
+	left: 20px;
+	border: 2px solid rgb(255, 255, 255);
+	margin-left: 20px;
+	font-family: 'AR BLANCA';
+	margin-top: 10px;
+}
+#Special_offer_6 h1{
+	padding: 10px 0px 0px 25px;
+}
+#White{
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	
+}
+#Red{
+	color: rgb(245, 0, 0);
+	display: inline-block;
+	padding-left: 10px;
+	font-family: 'AR BLANCA';
+}
+#Special_offer_6 h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	padding: 10px;
+	text-align: justify;
+	height: 120px;
+}
+
+#Special_offer_6 ul{
+	padding : 10px;
+	
+}
+
+#Special_offer_6 li{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Tahoma';
+	font-weight: normal;
+}
+
+#Choices {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+#Extras {
+	color: rgb(255, 255, 255);
+	padding: 10px 0px 0px 25px;
+}
+
+#Special_offer_6_img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+	margin: 20px;
+	overflow: hidden;
+	left: 47%;
+	top: 200px;
+	
+}
+#Special_offer_6_img img{
+	width: 100%;
+	height: 100%;
+}
+
+#circle-6{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	left: 70%;
+	top: 290px;
+}
+#circle-6 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+/* End of Special Offer Sixth product */
+
+
+/* Regular Items Menu style */
+.Regular_Items_Container{
+	position: relative;
+	margin-top: 20px;
+	/* border: 1px solid white;  */
+	padding: 10px;
+}
+
+.Regular_header{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin-top: 10px;
+	margin-left: 25%;
+	padding: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.Regular_header img{
+	width: 100%;
+}
+
+/* 1st item in the list */
+
+#item-1{
+	Position: Relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 47%;
+	height: 100px;
+	over-flow: hidden;
+	left: 20px;	
+}
+
+#Item_Show{
+	position: relative;
+	width: 30%;
+	height: 100px;
+	float: left;
+	over-flow: hidden;
+}
+
+#Item_Show img{
+	width: 90%;
+	height: 90%;
+}
+
+#R_circle_1{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	top: 37px;
+	left: 83px;
+}
+#R_circle_1 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+#Item-1_discription{
+	width: 70%;
+	padding: 10px;
+	float: right;
+	
+}
+#Item-1_discription h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* End of 1st item in list */
+
+
+/* 2nd item in the list */
+#item-2{
+	Position: Relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 47%;
+	height: 100px;
+	over-flow: hidden;
+	left: 20px;	
+	margin-top: 10px;
+}
+
+#Item_Show{
+	position: relative;
+	width: 30%;
+	height: 100px;
+	float: left;
+	over-flow: hidden;
+}
+
+#Item_Show img{
+	width: 90%;
+	height: 90%;
+}
+
+#R_circle_2{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	top: 37px;
+	left: 83px;
+}
+#R_circle_2 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+#Item-2_discription{
+	width: 70%;
+	padding: 10px;
+	float: right;
+	
+}
+#Item-2_discription h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* End of 2nd item in list */
+
+/* 3rd item in the list */
+#item-3{
+	Position: Relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 47%;
+	height: 100px;
+	over-flow: hidden;
+	left: 20px;	
+	margin-top: 10px;
+}
+
+#Item_Show{
+	position: relative;
+	width: 30%;
+	height: 100px;
+	float: left;
+	over-flow: hidden;
+}
+
+#Item_Show img{
+	width: 90%;
+	height: 90%;
+}
+
+#R_circle_3{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	top: 37px;
+	left: 83px;
+}
+#R_circle_3 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+#Item-3_discription{
+	width: 70%;
+	padding: 10px;
+	float: right;
+	
+}
+#Item-3_discription h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* End of 3rd item in list */
+
+/* 4th item in the list */
+#item-4{
+	Position: Relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 47%;
+	height: 100px;
+	over-flow: hidden;
+	left: 20px;	
+	margin-top: 10px;
+}
+
+#Item_Show{
+	position: relative;
+	width: 30%;
+	height: 100px;
+	float: left;
+	over-flow: hidden;
+}
+
+#Item_Show img{
+	width: 90%;
+	height: 90%;
+}
+
+#R_circle_4{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	top: 37px;
+	left: 83px;
+}
+#R_circle_4 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+#Item-4_discription{
+	width: 70%;
+	padding: 10px;
+	float: right;
+	
+}
+#Item-4_discription h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* End of 4th item in list */
+
+/* 5th item in the list */
+#item-5{
+	Position: Relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 47%;
+	height: 100px;
+	over-flow: hidden;
+	left: 20px;	
+	margin-top: 10px;
+}
+
+#Item_Show{
+	position: relative;
+	width: 30%;
+	height: 100px;
+	float: left;
+	over-flow: hidden;
+}
+
+#Item_Show img{
+	width: 90%;
+	height: 90%;
+}
+
+#R_circle_5{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	top: 37px;
+	left: 83px;
+}
+#R_circle_5 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+#Item-5_discription{
+	width: 70%;
+	padding: 10px;
+	float: right;
+	
+}
+#Item-5_discription h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* End of 5th item in list */
+
+/* 6th item in the list */
+#item-6{
+	Position: Relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 47%;
+	height: 100px;
+	over-flow: hidden;
+	left: 20px;	
+	margin-top: 10px;
+}
+
+#Item_Show{
+	position: relative;
+	width: 30%;
+	height: 100px;
+	float: left;
+	over-flow: hidden;
+}
+
+#Item_Show img{
+	width: 90%;
+	height: 90%;
+}
+
+#R_circle_6{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	top: 37px;
+	left: 83px;
+}
+#R_circle_6 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+#Item-6_discription{
+	width: 70%;
+	padding: 10px;
+	float: right;
+	
+}
+#Item-6_discription h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* End of 6th item in list */
+
+
+
+/* 7th item in the list */
+#item-7{
+	Position: Relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 47%;
+	height: 100px;
+	over-flow: hidden;
+	left: 20px;	
+	margin-top: 10px;
+}
+
+#Item_Show{
+	position: relative;
+	width: 30%;
+	height: 100px;
+	float: left;
+	over-flow: hidden;
+}
+
+#Item_Show img{
+	width: 90%;
+	height: 90%;
+}
+
+#R_circle_7{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	top: 37px;
+	left: 83px;
+}
+#R_circle_7 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+#Item-7_discription{
+	width: 70%;
+	padding: 10px;
+	float: right;
+	
+}
+#Item-7_discription h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* End of 7th item in list */
+
+/* 8th item in the list */
+#item-8{
+	Position: Relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 47%;
+	height: 100px;
+	over-flow: hidden;
+	left: 20px;	
+	margin-top: 10px;
+}
+
+#Item_Show{
+	position: relative;
+	width: 30%;
+	height: 100px;
+	float: left;
+	over-flow: hidden;
+}
+
+#Item_Show img{
+	width: 90%;
+	height: 90%;
+}
+
+#R_circle_8{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid rgb(255, 66, 66);
+	text-align: center;
+	background: rgb(255,0,0);
+	top: 37px;
+	left: 83px;
+}
+#R_circle_8 h2{
+	padding: 10px;
+	color: rgb(255,255,255);
+}
+#Item-8_discription{
+	width: 70%;
+	padding: 10px;
+	float: right;
+	
+}
+#Item-8_discription h4{
+	color: rgb(255, 255, 255);
+	font-family: 'Tahoma';
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* End of 8th item in list */
+
+
+/* End of Regular Items Menu style */
+
+
+/* In house Drinks  */
+/* Drink Header */
+#Drinks_Container{
+	Position: relative;
+	
+	width: 100%;
+	height: 100%;
+	margin-top: 40px;
+	border : 1px solid white;
+}
+
+#Drinks_Header{
+	width: 50%;
+	height: 50%;
+	overflow: hidden;
+	margin-left: 25%;
+}
+
+#Drinks_Header img{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+/* Drink 1 */
+#Drink1{
+	cursor: pointer;
+	width: 30%;
+	Height: 50px;
+	margin: 10px 0px 10px 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+
+
+/* Drink 2 */
+#Drink2{
+	cursor: pointer;
+	width: 30%;
+	Height: 50px;
+	margin: 10px 0px 10px 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Drink 3 */
+#Drink3{
+	cursor: pointer;
+	width: 30%;
+	Height: 50px;
+	margin: 10px 0px 10px 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Juices */
+
+/* Drink 4 */
+#Drink4{
+	cursor: pointer;
+	width: 30%;
+	Height: 50px;
+	margin: 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Drink 5 */
+#Drink5{
+	cursor: pointer;
+	width: 30%;
+	Height: 50px;
+	margin: 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+/* End of Juices */
+
+
+/* Tea drinks */
+
+/* Drink 6 */
+#Drink6{
+	cursor: pointer;
+	width: 30%;
+	Height: 50px;
+	margin: 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Drink 7 */
+#Drink7{
+	cursor: pointer;
+	width: 30%;
+	Height: 50px;
+	margin: 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Drink 8 */
+#Drink8{
+	cursor: pointer;
+	width: 30%;
+	Height: 50px;
+	margin: 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+
+/* End of Tea drinks */
+
+/* Booking Form */
+
+#Booking_Container{
+	Position: relative;
+	width: 100%;
+	height: 100%;
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+#Extra_header{
+	
+	width: 50%;
+	height: 50%;
+	overflow: hidden;
+	margin-left: 25%;
+}
+
+#Extra_header img{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+#Booking_Details{
+	background: rgb(0,0,0, .56);
+	width: 70%;
+	height: 70%;
+	text-align: center;
+	border-radius: 20px;
+	margin-left: 14%;
+	padding: 30px;
+	
+}
+
+.Wrap{
+	width: 70%;
+	height: 100;
+	padding: 10px;
+	display: inline-block;
+}
+
+.Wrap label{
+	width: 100%;
+	text-align: left;
+	
+}
+.Wrap input{
+	padding: 5px;
+	width: 100%;
+	border-radius: 5px;
+	margin: 10px;
+	
+}
+.Wrap select{
+	padding: 5px;
+	width: 100%;
+	border-radius: 5px;
+	margin: 10px;
+	
+}
+
+
+#Total_Purchase{
+	width: 50%;
+	height: 50px;
+	background-color: rgb(128,128,128);
+	text-align: center;
+	display: inline-block;
+	padding-top: 10px;
+	border-radius: 10px;
+}
+#Total_value{
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	font-family: 'AR BLANCA';
+	font-size:30px;
+	margin-left: 10px;
+	
+}
+#Yallah{
+	width: 50%;
+	height: 50px;
+	background-color: rgb(255,0,0);
+	text-align: center;
+	display: inline-block;
+	padding-top: 10px;
+	margin : 10px;
+	border-radius: 10px;
+	cursor: no-drop;
+}
+
+.Side_total_Container{
+	position: fixed;
+	top: 300px;
+	right: 50px;
+	width: 100px;
+	height: 100px;	
+}
+
+#Side_Total{
+	text-align: center;
+}
+
+
+#Side_total_amount{
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+	background-color: rgb(255,0,0);
+	text-align: center;
+	justify-content: center;
+}
+#Calc{
+	padding-top: 37px;
+	color: white;
+	color: rgb(255, 255, 255);
+	font-family: 'AR BLANCA';
+	font-size:30px;
+	
+	
+}
+
+
+/* Media Queries */
+@media all and (max-width: 1000px){
+	#Special_offer_1{
+		width: 40%;
+	}
+	#Special_offer_2{
+		width: 40%;
+	}
+	#Special_offer_3{
+		width: 40%;
+	}
+	#Special_offer_4{
+		width: 40%;
+	}
+	#Special_offer_5{
+		width: 40%;
+	}
+	#Special_offer_6{
+		width: 40%;
+	}
+	#Side_total_amount{
+		width: 70px;
+		height: 70px;
+		margin-Left: 15px;
+	}
+	#Calc{
+		padding-top: 20px;
+	}
+	
+
+}
+
+
+
+@media all and (max-width: 768px){
+		/* Humberger Menu */
+	#Humberger_Icon{
+		display: block;
+		position: fixed;
+		right: 20px;
+	}
+	nav{
+		width: 250px;
+		height: 100vh;
+		background: rgb(0,0,0, .80);	
+		margin-right: -20px;
+		border-radius: 100px 0px 0px 60px; 
+		display: none;		
+	}
+	
+	nav ul{
+		margin-top: 100px;
+		padding-left: 50px;
+		
+	}
+	
+	nav ul li{
+		display: block;
+		right: 50px;
+		margin-top: 10px;
+	}
+	
+	/* Toggle side navigation bar */
+	.navShow{
+		display: block;
+	}
+	
+	
+	
+	
+	
+	
+	#Company_logo{
+		width: 80%;
+		left: 10px;
+	}
+	#Company_logo h1{
+		left: 10px;
+		text-align: left;
+	}
+	
+	
+	
+	
+	
+	
+	#item-1{
+		width: 85%;
+		height: 100px;
+		display: block;
+	}
+	#item-2{
+		width: 85%;
+		height: 100px;
+		display: block;
+	}#item-3{
+		width: 85%;
+		height: 100px;
+		display: block;
+	}#item-4{
+		width: 85%;
+		height: 100px;
+		display: block;
+	}#item-5{
+		width: 85%;
+		height: 100px;
+		display: block;
+	}#item-6{
+		width: 85%;
+		height: 100px;
+		display: block;
+	}#item-7{
+		width: 85%;
+		height: 100px;
+		display: block;
+	}
+	#item-8{
+		width: 85%;
+		height: 100px;
+		display: block;
+	}
+
+}
+
+@media all and (max-width: 400px){
+	
+	#Special_offer_1{
+		width: 70%;
+		display: block;
+	}
+	#Special_offer_2{
+		width: 70%;
+		display: block;
+	}
+	#Special_offer_3{
+		width: 70%;
+		display: block;
+	}
+	#Special_offer_4{
+		width: 70%;
+		display: block;
+	}
+	#Special_offer_5{
+		width: 70%;
+		display: block;
+	}
+	#Special_offer_6{
+		width: 70%;
+		display: block;
+	}
+	#Side_total_amount{
+		width: 50px;
+		height: 50px;
+		margin-Left: 15px;
+	}
+	#Calc{
+		padding-top: 10px;
+	}
+	.Side_total_Container{
+		right: 0px;
+	}
+
+	#Item_Show img{
+		width: 90%;
+		height: 60%;
+	}
+
+	#R_circle_1{
+		width: 50px;
+		height: 50px;
+		top: 25px;
+		left: 40px;
+	}
+
+	#Item-1_discription h4{
+		color: rgb(255, 255, 255);
+		font-family: 'Tahoma';
+		font-size: .8rem;
+		text-align: justify;
+	}
+
+	/* End of 1st item in list */
+	
+	/* 2nd item */
+	
+	#R_circle_2{
+		width: 50px;
+		height: 50px;
+		top: 25px;
+		left: 40px;
+	}
+
+	#Item-2_discription h4{
+		color: rgb(255, 255, 255);
+		font-family: 'Tahoma';
+		font-size: .8rem;
+		text-align: justify;
+	}
+	
+	/* 3rd iterm */
+	
+	
+	#R_circle_3{
+		width: 50px;
+		height: 50px;
+		top: 25px;
+		left: 40px;
+	}
+
+	#Item-3_discription h4{
+		color: rgb(255, 255, 255);
+		font-family: 'Tahoma';
+		font-size: .8rem;
+		text-align: justify;
+	}
+	
+	/* 4th Item */
+	
+	
+	#R_circle_4{
+		width: 50px;
+		height: 50px;
+		top: 25px;
+		left: 40px;
+	}
+
+	#Item-4_discription h4{
+		color: rgb(255, 255, 255);
+		font-family: 'Tahoma';
+		font-size: .8rem;
+		text-align: justify;
+	}
+	
+	/* 5th item */
+	
+	
+	#R_circle_5{
+		width: 50px;
+		height: 50px;
+		top: 25px;
+		left: 40px;
+	}
+
+	#Item-5_discription h4{
+		color: rgb(255, 255, 255);
+		font-family: 'Tahoma';
+		font-size: .8rem;
+		text-align: justify;
+	}
+	
+	/* 6th item */
+	
+	
+	#R_circle_6{
+		width: 50px;
+		height: 50px;
+		top: 25px;
+		left: 40px;
+	}
+
+	#Item-6_discription h4{
+		color: rgb(255, 255, 255);
+		font-family: 'Tahoma';
+		font-size: .8rem;
+		text-align: justify;
+	}
+	
+	/* 7th item */
+	
+	
+	#R_circle_7{
+		width: 50px;
+		height: 50px;
+		top: 25px;
+		left: 40px;
+	}
+
+	#Item-7_discription h4{
+		color: rgb(255, 255, 255);
+		font-family: 'Tahoma';
+		font-size: .8rem;
+		text-align: justify;
+	}
+	
+	/* 8th item */
+	
+	
+	#R_circle_8{
+		width: 50px;
+		height: 50px;
+		top: 25px;
+		left: 40px;
+	}
+
+	#Item-8_discription h4{
+		color: rgb(255, 255, 255);
+		font-family: 'Tahoma';
+		font-size: .8rem;
+		text-align: justify;
+	}
+	
+	/* Drink 1 */
+	#Drink1{
+		width: 70%;
+		Height: 50px;
+		display: block;
+	}
+	#Drink2{
+		width: 70%;
+		Height: 50px;
+		display: block;
+	}
+	#Drink3{
+		width: 70%;
+		Height: 50px;
+		display: block;
+	}
+	#Drink4{
+		width: 70%;
+		Height: 50px;
+		display: block;
+	}
+	#Drink5{
+		width: 70%;
+		Height: 50px;
+		display: block;
+	}
+	#Drink6{
+		width: 70%;
+		Height: 50px;
+		display: block;
+	}
+	#Drink7{
+		width: 70%;
+		Height: 50px;
+		display: block;
+	}
+	#Drink8{
+		width: 70%;
+		Height: 50px;
+		display: block;
+	}
+	
+	
+	#Booking_Details{
+		background: rgb(0,0,0, .56);
+		width: 100%;
+		height: 100%;	
+		margin-left: 0;
+		padding: 10px;
+		
+	}
+
+	.Wrap{
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+	}
+	.Wrap label{
+		width: 100%;
+		text-align: left;
+		
+	}
+	.Wrap input{
+		padding: 5px;
+		width: 100%;
+		border-radius: 5px;
+		margin: 5px;
+		
+	}
+	.Wrap select{
+		padding: 5px;
+		width: 100%;
+		border-radius: 5px;
+		margin: 10px;
+		
+	}
+
+
+	#Total_Purchase{
+		width: 50%;
+		height: 50px;
+		background-color: rgb(128,128,128);
+		text-align: center;
+		display: inline-block;
+		padding-top: 10px;
+		border-radius: 10px;
+	}
+	#Total_value{
+		display: inline-block;
+		color: rgb(255, 255, 255);
+		font-family: 'AR BLANCA';
+		font-size:30px;
+		margin-left: 10px;
+		
+	}
+	#Yallah{
+		width: 50%;
+		height: 50px;
+		background-color: rgb(255,0,0);
+		text-align: center;
+		display: inline-block;
+		padding-top: 10px;
+		margin : 10px;
+		border-radius: 10px;
+		cursor: no-drop;
+	}	
+	
+}

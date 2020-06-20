@@ -1,0 +1,1175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Start of Cover Works including Nav, Cover Image, Summary and Button*/
+.Main_Container{
+	background-image: radial-gradient(circle, #d64b0f, #a44700, #773d00, #513000, #302101);
+}
+
+.Cover_Container1 img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.Header_Container{
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	height: 50px;
+	background: rgb(128,128,128, .60);
+}
+.Header_Container_animated {
+	transition: 350ms;
+	background: rgb(128,128,128);
+}
+
+#Company_logo{
+	position: absolute;
+	color: rgb(255, 255, 255);
+	width: 25%;
+	height: 100%;
+	font-size: 20px;
+}
+
+#Company_logo h1{
+	text-align: center;
+	margin-top: 7px;
+}
+
+#Company_summary {
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	font-size: 1.2rem;
+	animation: fadeLeftIn 2s; 
+}
+
+
+
+nav{
+	font-size : 1.5rem;
+	float: right;
+	height: 100%;
+	margin-right: 20px;
+	
+}
+
+/* Humberger menu */
+
+#Humberger_Icon{
+	position: relative;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	display: none;
+}
+#line1 {
+	width: 90%;
+	height: 10%;
+	background: rgb(255,255,255);
+	border-radius: 2px;
+	/* display: inline-block; */
+	margin: 10px 2px 4px 2px;
+	
+}
+#line2{
+	width: 90%;
+	height: 10%;
+	background: rgb(255,255,255);
+	border-radius: 2px;
+	margin: 4px 2px 4px 2px;
+}
+#line3{
+	width: 90%;
+	height: 10%;
+	background: rgb(255,255,255);
+	border-radius: 2px;
+	margin: 4px 2px 4px 2px;
+}
+/* Humberger menu */
+
+
+nav ul {
+	list-style: none;
+	height: 100%;
+	text-align: center;
+}
+
+nav ul  li{
+	display: inline-block;
+	padding: 10px 5px;
+	height: 100%;
+	width: 100px;
+	
+}
+
+nav ul  li:hover{
+	background-color: rgb(0, 200, 255);
+	transition: 500ms;
+	
+}
+
+nav a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+/* Button Styles */
+
+.CallButton {
+  background-color: rgb(255, 38, 38, .40);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.CallButton:hover{
+  background-color: rgb(255, 38, 38);
+  transition: background,font-size 350ms;
+  font-size: 18px;
+  padding: 13px 30px;
+}
+
+.ReserveButton{
+  background-color: rgb(172, 172, 157, .40);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.ReserveButton:hover{
+  background-color:rgb(172, 172, 157);
+  transition: background,font-size 350ms;
+  font-size: 18px;
+  padding: 13px 30px;
+}
+
+/* Animation for company summary */
+@keyframes fadeLeftIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;		
+	}
+}
+
+/* End of Cover Works */
+
+
+/* ================================*/
+
+
+/* Starting of About US section */
+
+.About_us_Container {
+	position: relative;
+	display: inline-block;
+	width: 85%;
+	height: 100%;
+	margin-top: 10px;
+	justify-content: center;
+	left: 5%;
+	color: rgb(255,255,255)
+}
+.About_us_Container_p{
+	position: absolute;
+	float: left;
+	width: 50%;
+	height: 100%;
+	padding: 10px;
+	overflow: hidden;
+	opacity: 0; 
+}
+
+.About_us_Container  h1{
+	padding: 20px;
+	font-size: 3.0rem;
+	text-shadow: 2px 2px rgb(102, 102, 102);
+}
+.About_us_Container  h4{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1.2rem;
+	
+}
+.Cheffcartoon{
+	float: right;
+	display: block;
+	width: 50%;
+	height: 100%;
+	padding: 10px;
+	overflow: hidden;
+	text-align: center;
+	opacity: 0;
+	filter: drop-shadow(10px 10px 4px #000);
+
+}
+.Cheffcartoon img{
+	width: 80%;
+	height: 80%;
+	padding: 20px;
+	margin: 10%;
+}
+
+/* End of About US section */
+
+/* We Have Container section */
+
+
+/* Resturant size */
+
+.A_Rest_Container{
+	position: relative;
+	display: inline-block;
+	width: 85%;
+	height: 100vh;
+	justify-content: center;
+	left: 5%;
+	margin-top: 10px;
+	background: rgb(210, 210, 210, .80);
+}
+
+.A_Rest_Details{
+	position: absolute;
+	float: left;
+	width: 30%;
+	height: 50%;
+	background: rgb(157, 157, 157);
+	text-align: center;
+	top: 100px;
+	left: 2%;
+	overflow: hidden;
+}
+
+.A_Rest_Details img{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 35%;
+	margin-top: 70px;
+	margin-left: 5px;
+	
+}
+
+.A_Rest_Details h1{
+	position: absolute;
+	font-size: 1.5rem;
+	padding-bottom: 10px;
+	margin-left: 60px;
+	margin-top: -80px;
+}
+
+.A_Rest_Details ul{
+	text-align: left;
+	margin-left: 60px;
+	margin-top: -15px;
+	list-style: none;
+}
+
+/* crousel CSS */
+
+#A_Rest_Image_Slider{
+	position: relative;
+	float: right;
+	width: 65%;
+	height: 97%;
+	margin: 10px;
+	overflow: hidden;
+}
+
+#A_Rest_Image_Slider figure{
+	position: relative;
+	width: 450%;
+	height: 100%;
+	display: flex;
+	animation: 20s slider infinite;
+}
+
+#A_Rest_Image_Slider img{
+	width: 800px;
+	margin-right: 5px;
+	height: 560px;
+	display: inline-block;
+}
+
+@keyframes slider{
+	0%{
+		left: -35px;
+	}
+	20%{
+		left: -35px;
+	}
+	30%{
+		left: -820px;	
+	}
+	50%{
+		left: -820px;
+	}
+	60%{
+		left: -1640px;
+	}
+	80%{
+		left: -1640px;
+	}
+	
+	100%{
+		left: -2450px;
+	}
+}
+
+/* End crousel CSS */
+
+
+
+
+/* Parking Side */
+
+.A_Park_Container{
+	position: relative;
+	display: inline-block;
+	width: 85%;
+	height: 100vh;
+	justify-content: center;
+	left: 5%;
+	margin-top: 10px;
+	background: rgb(210, 210, 210, .80);
+}
+
+.A_Park_Details{
+	position: absolute;
+	float: right;
+	width: 30%;
+	height: 50%;
+	background: rgb(157, 157, 157);
+	text-align: center;
+	top: 100px;
+	right: 2%;
+	overflow: hidden;
+}
+
+.A_Park_Details h1{
+	position: absolute;
+	font-size: 1.5rem;
+	padding-bottom: 10px;
+	margin-left: 60px;
+	margin-top: -70px;
+}
+
+.A_Park_Details ul{
+	text-align: left;
+	margin-left: 60px;
+	margin-top: -15px;
+	list-style: none;
+}
+
+.A_Park_Details img{
+	
+	text-align: center;
+	width: 100%;
+	height: 30%;
+	margin-top: 80px;
+	margin-left: 0px;
+	
+}
+
+/* Crosuel Effect but the Key frame animation is on the top crousel on line 292*/
+
+#Area_Parking_Image{
+	position: relative;
+	float: left;
+	width: 65%;
+	height: 97%;
+	margin: 10px;
+	overflow: hidden;
+}
+
+#Area_Parking_Image figure{
+	position: relative;
+	width: 450%;
+	height: 100%;
+	display: flex;
+	animation: 25s slider infinite;
+}
+
+
+
+#Area_Parking_Image img{
+	width: 800px;
+	margin-right: 5px;
+	height: 560px;
+	display: inline-block;
+}
+
+/* End of Crousel */
+
+/* Dine */
+
+.Dine_Details_Container{
+	position: relative;
+	display: inline-block;
+	width: 85%;
+	height: 100vh;
+	justify-content: center;
+	left: 5%;
+	margin-top: 10px;
+	background: rgb(210, 210, 210, .80);
+}
+.Dine_Details{
+	position: absolute;
+	float: left;
+	width: 30%;
+	height: 50%;
+	background: rgb(157, 157, 157);
+	text-align: center;
+	top: 100px;
+	left: 2%;
+	overflow: hidden;
+}
+
+.Dine_Details img{
+	text-align: center;
+	width: 100%;
+	height: 30%;
+	margin-top: 80px;
+	margin-left: -10px;
+	
+}
+
+.Dine_Details h1{
+	position: absolute;
+	font-size: 1.5rem;
+	padding-bottom: 10px;
+	margin-left: 60px;
+	margin-top: -75px;
+}
+
+.Dine_Details ul{
+	text-align: left;
+	margin-left: 60px;
+	margin-top: -15px;
+	list-style: none;
+}
+
+
+/* Crosuel Effect but the Key frame animation is on the top crousel on line 292*/
+
+#Dine_Details_Image{
+	position: relative;
+	float: right;
+	width: 65%;
+	height: 97%;
+	margin: 10px;
+	overflow: hidden;
+}
+
+#Dine_Details_Image figure{
+	position: relative;
+	width: 450%;
+	height: 100%;
+	display: flex;
+	animation: 22s slider infinite;
+}
+
+#Dine_Details_Image img{
+	width: 800px;
+	margin-right: 5px;
+	height: 560px;
+	display: inline-block;
+}
+
+
+/* Drinks */
+
+.Drinks_Details_Container{
+	position: relative;
+	display: inline-block;
+	width: 85%;
+	height: 100vh;
+	justify-content: center;
+	left: 5%;
+	margin-top: 10px;
+	background: rgb(210, 210, 210, .80)
+}
+
+.Drinks_Details{
+	position: absolute;
+	float: right;
+	width: 30%;
+	height: 50%;
+	background: rgb(157, 157, 157);
+	text-align: center;
+	top: 100px;
+	right: 2%;
+	overflow: hidden;
+}
+
+.Drinks_Details h1{
+	position: absolute;
+	font-size: 1.5rem;
+	padding-bottom: 10px;
+	margin-left: 60px;
+	margin-top: -70px;
+}
+
+.Drinks_Details ul{
+	text-align: left;
+	margin-left: 60px;
+	margin-top: -15px;
+	list-style: none;
+}
+
+.Drinks_Details img{
+	text-align: center;
+	width: 100%;
+	height: 30%;
+	margin-top: 60px;
+	margin-left: 5px;
+	
+}
+
+/* Crosuel Effect but the Key frame animation is on the top crousel on line 292*/
+
+#Drinks_Details_Image{
+	position: relative;
+	float: left;
+	width: 65%;
+	height: 97%;
+	margin: 10px;
+	overflow: hidden;
+}
+
+#Drinks_Details_Image figure{
+	position: relative;
+	width: 450%;
+	height: 100%;
+	display: flex;
+	animation: 24s slider infinite;
+}
+
+#Drinks_Details_Image img{
+	width: 800px;
+	margin-right: 5px;
+	height: 560px;
+	display: inline-block;
+}
+
+
+/* your cheff */
+
+.Your_Cheff_Container{
+	position: relative;
+	display: inline-block;
+	width: 85%;
+	height: 500px;
+	text-align: center;
+	left: 5%;
+	margin-top: 10px;
+	
+}
+
+.Your_Cheff_Container h1{
+	padding: 10px;
+	font-size: 3.0rem;
+	color: rgb(255,255,255);
+	text-shadow: 2px 2px rgb(102, 102, 102);
+	
+}
+
+.Your_Cheff_Container video{
+	width: 100%;
+}
+
+
+footer{
+	background: rgb(128,128,128, .60);
+	text-align: center;
+	height: 50px;
+	padding: 10px;
+}
+
+
+
+/* Media Queries for mobile Responsiveness */
+
+@media all and (max-width: 1257px){
+	.About_us_Container  h1{
+		padding: 10px;
+		font-size: 2.5rem;
+		text-shadow: 2px 2px rgb(102, 102, 102);
+	}
+	
+	.About_us_Container  h4{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 1rem;
+	
+	}
+}
+
+
+@media all and (max-width: 1000px){
+	#Company_logo{
+		width: 30%;
+		left: 10px;
+	}
+	.About_us_Container  h1{
+		padding: 5px;
+		font-size: 2.0rem;
+		text-shadow: 2px 2px rgb(102, 102, 102);
+	}
+	
+	.About_us_Container  h4{
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: .8rem;
+	}
+	
+	.A_Rest_Container{
+		height: 88vh;
+	}
+	
+	.A_Rest_Details{
+		left: 10px;
+	}
+	
+	.A_Rest_Details h1{
+		font-size: 1.2rem;
+		padding-bottom: 5px;
+		margin-left: 20px;
+		margin-top: 40px;
+	}
+
+	.A_Rest_Details ul{
+		
+		margin-left: 20px;
+		margin-top: 90px;
+	}
+	
+	.A_Rest_Details img{
+		display: none;
+	}
+	
+	.A_Park_Container{
+		height: 88vh;
+	}
+
+	.A_Park_Details{
+		right: 10px;
+	}
+
+	.A_Park_Details h1{
+		font-size: 1.2rem;
+		padding-bottom: 5px;
+		margin-left: 20px;
+		margin-top: 40px;
+	}
+
+	.A_Park_Details ul{
+		margin-left: 20px;
+		margin-top: 90px;
+	}
+	
+	.A_Park_Details img{
+		display: none;
+	}
+	
+	/* Area Dine Details */
+	
+	.Dine_Details_Container{
+		height: 88vh;
+	}
+
+	.Dine_Details{
+		left: 10px;
+	}
+
+	.Dine_Details h1{
+		font-size: 1.2rem;
+		padding-bottom: 5px;
+		margin-left: 20px;
+		margin-top: 40px;
+	}
+
+	.Dine_Details ul{
+		margin-left: 20px;
+		margin-top: 90px;
+	}
+	
+	.Dine_Details img{
+		display: none;
+	}
+	
+	
+	
+	.Drinks_Details_Container{
+		height: 88vh;
+	}
+
+	.Drinks_Details{
+		right: 10px;
+	}
+
+	.Drinks_Details h1{
+		font-size: 1.2rem;
+		padding-bottom: 5px;
+		margin-left: 20px;
+		margin-top: 40px;
+	}
+
+	.Drinks_Details ul{
+		margin-left: 20px;
+		margin-top: 90px;
+	}
+	
+	.Drinks_Details img{
+		display: none;
+	}
+}
+
+
+
+@media all and (max-width: 768px){
+	
+	/* Humberger Menu */
+	#Humberger_Icon{
+		display: block;
+		position: fixed;
+		right: 20px;
+	}
+	nav{
+		width: 250px;
+		height: 100vh;
+		background: rgb(0,0,0, .80);	
+		margin-right: -20px;
+		border-radius: 100px 0px 0px 60px; 
+		display: none;		
+	}
+	
+	nav ul{
+		margin-top: 100px;
+		padding-left: 50px;
+		
+	}
+	
+	nav ul li{
+		display: block;
+		right: 50px;
+		margin-top: 10px;
+	}
+	
+	/* Toggle side navigation bar */
+	.navShow{
+		display: block;
+	}
+	
+	
+	#Company_logo{
+		width: 80%;
+		left: 10px;
+	}
+	#Company_logo h1{
+		left: 10px;
+		text-align: left;
+	}
+	
+	#Company_summary {
+		top: 20%;
+		left: 5%;
+		font-size: 1.2rem;
+	}
+
+	
+	.About_us_Container{
+		height: 100vh;
+	}
+
+	
+	.About_us_Container_p{
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 50%;
+	}
+	.About_us_Container  h1{
+		padding: 10px;
+		font-size: 2.0rem;
+		text-shadow: 2px 2px rgb(102, 102, 102);
+	}
+	.About_us_Container  h4{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 1rem;
+		
+	}
+	
+	.Cheffcartoon{
+		display:block;
+		width: 100%;
+		top: 0px;
+		margin-top: -20px;
+		padding-top: 0px;
+	}
+	
+	.Cheffcartoon img{
+		width: 60%;
+		padding: 0px;
+		margin: 0px;
+		height: 300px;
+		margin-top: 65px;
+	}
+	
+	/* Restaurant Preview Block */
+	
+	.A_Rest_Container{
+		width: 100%;
+		height: 92vh;
+		text-align: center;
+		left: 0px;
+	}
+	
+	.A_Rest_Details{
+		position: aboslute;
+		top: 0px;
+		height: 200px;
+		width: 100%;
+		left: 0px;
+		display: block;
+	}
+	
+	
+	.A_Rest_Details h1{
+		font-size: 1.4rem;
+		padding-bottom: 5px;
+		margin-left: 300px;
+		margin-top: 40px;
+	}
+	
+	.A_Rest_Details ul{
+		
+		margin-left: 300px;
+		margin-top: 90px;
+	}
+	
+	#A_Rest_Image_Slider{
+		position: absolute;
+		float: none;
+		margin: 27% 20%;
+		height: 71%
+		
+	}	
+	
+	.A_Rest_Details img{
+		display: none;
+	}
+	
+	/* Area parking Details. */
+	.A_Park_Container{
+		width: 100%;
+		height: 92vh;
+		text-align: center;
+		left: 0px;
+	}
+	
+	.A_Park_Details{
+		position: aboslute;
+		top: 0px;
+		height: 200px;
+		width: 100%;
+		left: 0px;
+		display: block;
+	}
+	
+	
+	.A_Park_Details h1{
+		font-size: 1.4rem;
+		padding-bottom: 5px;
+		margin-left: 300px;
+		margin-top: 40px;
+	}
+	
+	.A_Park_Details ul{
+		
+		margin-left: 300px;
+		margin-top: 90px;
+	}
+	
+	#Area_Parking_Image{
+		position: absolute;
+		float: none;
+		margin: 27% 20%;
+		height: 71%
+		
+	}	
+	
+	.A_Park_Details img{
+		display: none;
+	}
+	
+	/* Area Dine Details */
+	
+	.Dine_Details_Container{
+		width: 100%;
+		height: 92vh;
+		text-align: center;
+		left: 0px;
+	}
+	
+	.Dine_Details{
+		position: aboslute;
+		top: 0px;
+		height: 200px;
+		width: 100%;
+		left: 0px;
+		display: block;
+	}
+	
+	
+	.Dine_Details h1{
+		font-size: 1.4rem;
+		padding-bottom: 5px;
+		margin-left: 300px;
+		margin-top: 40px;
+	}
+	
+	.Dine_Details ul{
+		
+		margin-left: 300px;
+		margin-top: 90px;
+	}
+	
+	#Dine_Details_Image{
+		position: absolute;
+		float: none;
+		margin: 27% 20%;
+		height: 71%
+		
+	}	
+	
+	.Dine_Details img{
+		display: none;
+	}
+	
+	
+	
+	/* Drinks section */
+	.Drinks_Details_Container{
+		width: 100%;
+		height: 92vh;
+		text-align: center;
+		left: 0px;
+	}
+	
+	.Drinks_Details{
+		position: aboslute;
+		top: 0px;
+		height: 200px;
+		width: 100%;
+		left: 0px;
+		display: block;
+	}
+	
+	
+	.Drinks_Details h1{
+		font-size: 1.4rem;
+		padding-bottom: 5px;
+		margin-left: 300px;
+		margin-top: 40px;
+	}
+	
+	.Drinks_Details ul{
+		
+		margin-left: 300px;
+		margin-top: 90px;
+	}
+	
+	#Drinks_Details_Image{
+		position: absolute;
+		float: none;
+		margin: 27% 20%;
+		height: 71%
+		
+	}	
+	
+	.Drinks_Details img{
+		display: none;
+	}
+		
+	
+	Footer{
+		font-size: .8rem;
+	}
+}
+
+@media all and (max-width: 400px){
+	
+	.A_Rest_Container{
+		width: 100%;
+		height: 92vh;
+		text-align: center;
+		left: 0px;
+	}
+	
+	.A_Rest_Details h1{
+		font-size: 1.4rem;
+		padding-bottom: 5px;
+		margin-left: 50px;
+		margin-top: 40px;
+	}
+	
+	.A_Rest_Details ul{
+		
+		margin-left: 50px;
+		margin-top: 90px;
+	}
+	
+	#A_Rest_Image_Slider{
+		position: absolute;
+		float: none;
+		margin: 50% 0;
+		height: 55%;
+		width: 100%;
+		
+	}	
+	
+	
+	
+	/* Parking  Section */
+	
+	.A_Park_Container{
+		width: 100%;
+		height: 115vh;
+		text-align: center;
+		left: 0px;
+	}
+	
+	.A_Park_Details h1{
+		font-size: 1.4rem;
+		padding-bottom: 5px;
+		margin-left: 50px;
+		margin-top: 40px;
+	}
+	
+	.A_Park_Details ul{
+		
+		margin-left: 50px;
+		margin-top: 90px;
+	}
+	
+	#Area_Parking_Image{
+		position: absolute;
+		float: none;
+		margin: 50% 0;
+		height: 55%;
+		width: 100%;
+		
+	}	
+	
+	
+	/* Dine Section */
+
+	.Dine_Details_Container{
+		width: 100%;
+		height: 115vh;
+		text-align: center;
+		left: 0px;
+	}
+	
+	.Dine_Details h1{
+		font-size: 1.4rem;
+		padding-bottom: 5px;
+		margin-left: 50px;
+		margin-top: 40px;
+	}
+	
+	.Dine_Details ul{
+		
+		margin-left: 50px;
+		margin-top: 90px;
+	}
+	
+	#Dine_Details_Image{
+		position: absolute;
+		float: none;
+		margin: 50% 0;
+		height: 55%;
+		width: 100%;
+		
+	}	
+	
+	
+	/* Drinks Section */
+	
+	.Drinks_Details_Container{
+		width: 100%;
+		height: 115vh;
+		text-align: center;
+		left: 0px;
+	}
+	
+	.Drinks_Details h1{
+		font-size: 1.4rem;
+		padding-bottom: 5px;
+		margin-left: 50px;
+		margin-top: 40px;
+	}
+	
+	.Drinks_Details ul{
+		
+		margin-left: 50px;
+		margin-top: 90px;
+	}
+	
+	#Drinks_Details_Image{
+		position: absolute;
+		float: none;
+		margin: 50% 0;
+		height: 55%;
+		width: 100%;
+		
+	}	
+	.Your_Cheff_Container{
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		height: 50vh;
+		text-align: center;
+		left: 0;
+		margin-top: 10px;
+		
+	}
+	
+	footer{
+		height: 70px;
+	}
+	
+}
+
+
